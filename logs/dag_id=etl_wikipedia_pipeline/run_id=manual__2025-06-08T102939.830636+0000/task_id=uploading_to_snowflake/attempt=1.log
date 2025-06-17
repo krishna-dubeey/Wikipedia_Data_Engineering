@@ -1,0 +1,18 @@
+[2025-06-08T10:39:21.186+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_wikipedia_pipeline.uploading_to_snowflake manual__2025-06-08T10:29:39.830636+00:00 [queued]>
+[2025-06-08T10:39:21.213+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_wikipedia_pipeline.uploading_to_snowflake manual__2025-06-08T10:29:39.830636+00:00 [queued]>
+[2025-06-08T10:39:21.214+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-06-08T10:39:21.248+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): uploading_to_snowflake> on 2025-06-08 10:29:39.830636+00:00
+[2025-06-08T10:39:21.268+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_wikipedia_pipeline', 'uploading_to_snowflake', 'manual__2025-06-08T10:29:39.830636+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/wikipedia_dag.py', '--cfg-path', '/tmp/tmpqvjnhuna']
+[2025-06-08T10:39:21.270+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask uploading_to_snowflake
+[2025-06-08T10:39:21.261+0000] {standard_task_runner.py:57} INFO - Started process 49 to run task
+[2025-06-08T10:39:21.472+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_wikipedia_pipeline.uploading_to_snowflake manual__2025-06-08T10:29:39.830636+00:00 [running]> on host c53596a4c7f4
+[2025-06-08T10:39:21.725+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Krishna Dubey' AIRFLOW_CTX_DAG_ID='etl_wikipedia_pipeline' AIRFLOW_CTX_TASK_ID='uploading_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-06-08T10:29:39.830636+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-08T10:29:39.830636+00:00'
+[2025-06-08T10:39:28.372+0000] {connection.py:486} INFO - Snowflake Connector for Python Version: 3.15.0, Python Version: 3.9.18, Platform: Linux-6.6.87.1-microsoft-standard-WSL2-x86_64-with-glibc2.31
+[2025-06-08T10:39:28.373+0000] {connection.py:1391} INFO - Connecting to GLOBAL Snowflake domain
+[2025-06-08T10:39:38.802+0000] {logging_mixin.py:151} INFO - Successfully connected to Snowflake
+[2025-06-08T10:41:49.639+0000] {logging_mixin.py:151} INFO - Successfully uploaded CSV to Movies
+[2025-06-08T10:41:49.942+0000] {logging_mixin.py:151} INFO - Snowflake connection closed
+[2025-06-08T10:41:49.945+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-06-08T10:41:49.967+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_wikipedia_pipeline, task_id=uploading_to_snowflake, execution_date=20250608T102939, start_date=20250608T103921, end_date=20250608T104149
+[2025-06-08T10:41:50.053+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-06-08T10:41:50.082+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

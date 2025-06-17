@@ -1,0 +1,14 @@
+#passwords
+config/config.conf
+
+
+#pentaho folder
+
+data-integration
+
+.venv
+
+.idea
+
+
+logs/scheduler/latest

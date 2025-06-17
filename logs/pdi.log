@@ -1,0 +1,32 @@
+2025-06-08 10:44:48.413 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Dispatching started for transformation [Transformation1Movies]
+2025-06-08 10:44:53.827 INFO  <init of Table output.0 (Thread-13)> [/opt/transformation/Transformation1Movies.ktr]  Connected to database [Snowflake_Conn] (commit=1000)
+2025-06-08 10:45:26.346 INFO  <Transformation1Movies - Table input> [/opt/transformation/Transformation1Movies.ktr]  Finished reading query, closing connection
+2025-06-08 10:45:26.349 INFO  <Transformation1Movies - Filter rows> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=0, R=1374, W=1178, U=0, E=0)
+2025-06-08 10:45:26.363 INFO  <Transformation1Movies - Sort rows> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=0, R=1178, W=1178, U=0, E=0)
+2025-06-08 10:45:26.378 INFO  <Transformation1Movies - Unique rows> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=0, R=1178, W=1101, U=0, E=0)
+2025-06-08 10:45:26.411 INFO  <Transformation1Movies - User defined Java class> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=0, R=1101, W=1101, U=0, E=0)
+2025-06-08 10:45:26.479 INFO  <Transformation1Movies - Table input> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=1374, O=0, R=0, W=1374, U=0, E=0)
+2025-06-08 10:45:30.292 INFO  <Transformation1Movies - Table output> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=1101, R=1101, W=1101, U=0, E=0)
+2025-06-08 10:45:30.309 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]   
+2025-06-08 10:45:30.311 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Table input.0 ended successfully, processed 1374 lines. ( 32 lines/s)
+2025-06-08 10:45:30.313 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Filter rows.0 ended successfully, processed 1374 lines. ( 32 lines/s)
+2025-06-08 10:45:30.314 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Sort rows.0 ended successfully, processed 1178 lines. ( 28 lines/s)
+2025-06-08 10:45:30.319 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Unique rows.0 ended successfully, processed 1178 lines. ( 28 lines/s)
+2025-06-08 10:45:30.320 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step User defined Java class.0 ended successfully, processed 1101 lines. ( 26 lines/s)
+2025-06-08 10:45:30.321 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Table output.0 ended successfully, processed 1101 lines. ( 26 lines/s)
+2025-06-08 11:27:13.153 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Dispatching started for transformation [Transformation1Movies]
+2025-06-08 11:27:16.624 INFO  <init of Table output.0 (Thread-13)> [/opt/transformation/Transformation1Movies.ktr]  Connected to database [Snowflake_Conn] (commit=1000)
+2025-06-08 11:27:44.226 INFO  <Transformation1Movies - Table input> [/opt/transformation/Transformation1Movies.ktr]  Finished reading query, closing connection
+2025-06-08 11:27:44.232 INFO  <Transformation1Movies - Filter rows> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=0, R=1657, W=1411, U=0, E=0)
+2025-06-08 11:27:44.247 INFO  <Transformation1Movies - Sort rows> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=0, R=1411, W=1411, U=0, E=0)
+2025-06-08 11:27:44.261 INFO  <Transformation1Movies - Unique rows> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=0, R=1411, W=1314, U=0, E=0)
+2025-06-08 11:27:44.325 INFO  <Transformation1Movies - User defined Java class> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=0, R=1314, W=1314, U=0, E=0)
+2025-06-08 11:27:44.354 INFO  <Transformation1Movies - Table input> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=1657, O=0, R=0, W=1657, U=0, E=0)
+2025-06-08 11:27:48.007 INFO  <Transformation1Movies - Table output> [/opt/transformation/Transformation1Movies.ktr]  Finished processing (I=0, O=1314, R=1314, W=1314, U=0, E=0)
+2025-06-08 11:27:48.030 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]   
+2025-06-08 11:27:48.032 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Table input.0 ended successfully, processed 1657 lines. ( 48 lines/s)
+2025-06-08 11:27:48.033 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Filter rows.0 ended successfully, processed 1657 lines. ( 48 lines/s)
+2025-06-08 11:27:48.034 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Sort rows.0 ended successfully, processed 1411 lines. ( 41 lines/s)
+2025-06-08 11:27:48.035 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Unique rows.0 ended successfully, processed 1411 lines. ( 41 lines/s)
+2025-06-08 11:27:48.036 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step User defined Java class.0 ended successfully, processed 1314 lines. ( 38 lines/s)
+2025-06-08 11:27:48.037 INFO  <main> [/opt/transformation/Transformation1Movies.ktr]  Step Table output.0 ended successfully, processed 1314 lines. ( 38 lines/s)

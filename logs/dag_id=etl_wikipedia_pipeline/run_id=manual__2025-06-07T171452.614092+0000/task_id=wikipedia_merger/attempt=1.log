@@ -1,0 +1,14 @@
+[2025-06-07T17:25:36.574+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_wikipedia_pipeline.wikipedia_merger manual__2025-06-07T17:14:52.614092+00:00 [queued]>
+[2025-06-07T17:25:36.643+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_wikipedia_pipeline.wikipedia_merger manual__2025-06-07T17:14:52.614092+00:00 [queued]>
+[2025-06-07T17:25:36.650+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-06-07T17:25:36.739+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): wikipedia_merger> on 2025-06-07 17:14:52.614092+00:00
+[2025-06-07T17:25:36.753+0000] {standard_task_runner.py:57} INFO - Started process 51 to run task
+[2025-06-07T17:25:36.771+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_wikipedia_pipeline', 'wikipedia_merger', 'manual__2025-06-07T17:14:52.614092+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/wikipedia_dag.py', '--cfg-path', '/tmp/tmpeuv6o3a3']
+[2025-06-07T17:25:36.783+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask wikipedia_merger
+[2025-06-07T17:25:37.025+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_wikipedia_pipeline.wikipedia_merger manual__2025-06-07T17:14:52.614092+00:00 [running]> on host 3c7dacd1bb6e
+[2025-06-07T17:25:37.469+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Krishna Dubey' AIRFLOW_CTX_DAG_ID='etl_wikipedia_pipeline' AIRFLOW_CTX_TASK_ID='wikipedia_merger' AIRFLOW_CTX_EXECUTION_DATE='2025-06-07T17:14:52.614092+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-07T17:14:52.614092+00:00'
+[2025-06-07T17:25:39.645+0000] {logging_mixin.py:151} INFO - ✅ Merged CSV saved as 'merged_movies_with_genre.csv'
+[2025-06-07T17:25:39.646+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-06-07T17:25:39.668+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=etl_wikipedia_pipeline, task_id=wikipedia_merger, execution_date=20250607T171452, start_date=20250607T172536, end_date=20250607T172539
+[2025-06-07T17:25:39.782+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-06-07T17:25:39.852+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
